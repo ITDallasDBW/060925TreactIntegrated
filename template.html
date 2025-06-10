@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="template.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- LANDING (Includes NAV, MODAL, HEADER)-->
+    <section id="landing">
+        <!-- START NAV -->
+        <nav>
+            <div class="row nav__row">
+                <div class="nav__logo">
+                    <img src="./assets/Logo.svg" class="nav__logo--img" alt="T Logo">
+                <!--  -->Treact<!--  -->
+                </div>
+                <!--  -->      <div class="nav__links">
+        <a href="" class="nav__link">About</a>
+        <a href="" class="nav__link">Blog</a>
+        <a href="" class="nav__link">Pricing</a>
+        <a href="" class="nav__link">Contact Us</a>
+        <a href="" class="nav__link nav__link--login">Login</a>
+        <a href="" class="nav__link nav__link--primary">Sign Up</a>
+      </div>
+<!--  -->
+                <!-- <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button> -->
+            </div>
+        </nav>
+        <!-- END NAV
+        START MODAL -->
+        <!-- <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal__links">
+                <a class="modal__link">About</a>
+                <a class="modal__link">Blog</a>
+                <a class="modal__link">Pricing</a>
+                <a class="modal__link">Contact Us</a>
+                <a class="modal__link">Login</a>
+                <a class="modal__link modal__link--primary">Sign Up</a>
+            </div>
+        </div> -->
+        <!-- END MODAL
+        START HEADER -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <!--  -->
+                              <div class="header__text">
+            <h1 class="header__text--h1">
+              Beautiful React Templates
+              <span class="text__purple">for you.</span>
+            </h1>
+            <p class="header__text--para">
+              Our templates are easy to setup, understand, and customize. Fully
+              modular components with a variety of pages and components.
+            </p>
+            <div class="header__cta">
+              <input type="text" class="header__cta--input" placeholder="Your email address" />
+             
+              <button class="header__cta--btn">Get Started</button>
+            </div>
+            <div class="header__text--wrapper">
+              <p class="header__text--img-caption">OUR TRUSTED CUSTOMERS</p>
+                <img src="./assets/TrustedCustomers.png" class="header__text--img" alt="" />
+           </div>
+        </div>
+                <img
+          src="./assets/ladyAtDeskHangParka.svg"
+          class="header__image"
+          alt=""
+        />
+                    <!--  -->
+            </div>
+        </header>
+        <!-- END HEADER -->
+    </section>
+    <!-- END LANDING
+    START MAIN -->
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="row__narrow">
+                    <!--  -->
+                    <h5 class="section__title">features</h5>
+     <h2 class="section__subtitle--ctr"> We have Amazing <span class="text__purple">Service.</span></h2>
+      <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat porro quo deleniti illo voluptatum facere quae vitae odit aperiam iusto!</p>
+    <div class="features__spacer">
+    <div class="features__col--wrapper">
+      <div class="features__field">
+                <span class="features__img--wrapper">
+          <img src="./assets/Icon.Secure.svg" class="features__img" alt="">
+        </span>
+        <span class="features__text--wrapper">
+            <p class="features__title">Secure</p>
+            <p class="features__description">We strictly only deal with vendors that provide top notch security</p>
+        </span>
+      </div>
+    </div>
+    <div class="features__col--wrapper">
+      <div class="features__field">
+                <span class="features__img--wrapper">
+          <img src="./assets/Icon.Support.svg" class="features__img" alt="">
+        </span>
+        <span class="features__text--wrapper">
+            <p class="features__title">24/7 Support</p>
+            <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, illo impedit. Saepe quasi
+            </p>
+        </span>
+      </div>
+    </div>
+    <div class="features__col--wrapper">
+      <div class="features__field">
+                <span class="features__img--wrapper">
+          <img src="./assets/Icon.Customize.svg" class="features__img" alt="">
+        </span>
+        <span class="features__text--wrapper">
+            <p class="features__title">Customizable</p>
+            <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quaerat aliquid porro officia!</p>
+        </span>
+      </div>
+    </div>    <div class="features__col--wrapper">
+      <div class="features__field">
+                <span class="features__img--wrapper">
+          <img src="./assets/Icon.Reliable.svg" class="features__img" alt="">
+        </span>
+        <span class="features__text--wrapper">
+            <p class="features__title">Reliable</p>
+            <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis laborum nemo est ea?</p>
+        </span>
+      </div>
+    </div>    <div class="features__col--wrapper">
+      <div class="features__field">
+                <span class="features__img--wrapper">
+          <img src="./assets/Icon.Fast.svg" class="features__img" alt="">
+        </span>
+        <span class="features__text--wrapper">
+            <p class="features__title">Fast</p>
+            <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod optio cupiditate ullam sit.</p>
+        </span>
+      </div>
+    </div>    <div class="features__col--wrapper">
+      <div class="features__field">
+                <span class="features__img--wrapper">
+          <img src="./assets/Icon.Easy.svg" class="features__img" alt="">
+        </span>
+        <span class="features__text--wrapper">
+            <p class="features__title">Easy</p>
+            <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic minus aliquam aperiam explicabo.</p>
+        </span>
+      </div>
+    </div>
+</div>
+                    <!--  -->
+                </div>
+            </div>
+        </section>
+        <section id="quality">
+            <div class="container">
+                <div class="row">
+                    <!--  -->
+                    <div class="row__split--left"><h5>Quality Work</h5>
+      <h2 class="section__subtitle--left"> Designed & Developed by <span class="text__purple">Professionals.</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatibus ut corporis dicta labore, voluptatum quibusdam repellat eveniet fugit repellendus eos eaque tenetur unde tempore reprehenderit delectus expedita non voluptates, ex deleniti eum? Ducimus, omnis tempore!</p>
+       <a href="https://www.google.com" class="button__learn-more">Learn More</a>
+      </div>
+      
+      <div class="row__split--right">
+        <img src="./assets/TreactHomepage.png" class="quality__img" alt="">
+      </div>
+                    <!--  -->
+                </div>
+               
+            </div>
+        </section>
+        <section id="steps">
+            <div class="container">
+                <div class="row">
+                    <!--  -->Enter Steps Section<!--  -->
+                </div>
+            </div>
+        </section>
+        <section id="values">
+            <div class="container">
+                <div class="row">
+                    <!--  -->Enter Values Section<!--  -->
+                </div>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <!--  -->Enter Pricing Section<!--  -->
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <!--  -->Enter Testimonials Section<!--  -->
+                </div>
+            </div>
+        </section>
+        <section id="start">
+            <div class="container">
+                <div class="row">
+                    <!--  -->Enter "Start"/Call to action section<!--  -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- END MAIN
+    START FOOTER -->
+    <footer>
+        <div class="row footer__row">
+            <!--  -->Enter Footer<!--  -->
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+</body>
+
+</html>
