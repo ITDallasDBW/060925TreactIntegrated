@@ -882,6 +882,52 @@ footer {
   overflow: hidden;
   border: 3px solid burlywood;
 }
+.footer__columns {
+display: flex;
+justify-content: space-between;
+
+}
+.footer__column {
+margin-top: 48px;
+color: rgb(247, 250, 252);
+}
+.footer__column--title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+
+}
+.footer__column--link {
+  color: white;
+}
+.footer__divider {
+
+}
+.footer__bottom {
+display: flex;
+justify-content: space-between;
+}
+.footer__logo {
+display: flex;
+}
+.footer__logo--img {
+
+}
+.footer__logo--text {
+
+}
+.footer__text {
+
+}
+.footer__socials {
+display: flex;
+justify-content: space-between;
+}
+.footer__socials--link {
+
+}
+
+
 
 /* 
 MOBILE RESPONSIVENESS ↓

@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", system-ui;
-  color: #243e63;
+  /* color: #243e63; */
 }
 
 body {
@@ -20,11 +20,13 @@ body {
   width: 800px;
   max-width: 1200px;
   height: 400px;
+  color:chocolate
 }
 .split {
   border: 3px solid red;
   width: 800px;
     display: flex;
+    color:blue;
 
 }
 .image__side {
