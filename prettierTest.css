@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui;
+  color: #243e63;
+}
+
+body {
+  border: 3px solid black;
+  width: 100%;
+  width: 1280px;
+  overflow: hidden;
+}
+
+.test__wrapper {
+  border: 3px solid purple;
+  width: 800px;
+  max-width: 1200px;
+  height: 400px;
+}
+.split {
+  border: 3px solid red;
+  width: 800px;
+    display: flex;
+
+}
+.image__side {
+  border: 3px solid pink;
+width: 200px;
+}
+.love__img {
+  border: 3px solid green;
+  width: 100%;
+}
+.text__side {
+  border: 3px solid blue;
+  width: 100%;
+  background-color: aquamarine;
+}
